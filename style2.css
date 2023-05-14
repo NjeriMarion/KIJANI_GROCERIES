@@ -26,12 +26,6 @@
 body{
     background-color: #EBFBEE;
 }
-.body{
-
-    background: url(IMAGES/backTwoEdit.png);
-    /* opacity: 80%; */
-
-}
 .navbar ul{
     display: flex;
     list-style: none;
@@ -74,10 +68,11 @@ margin-bottom: 80%;
 #signup,
 #login,
 #physicalpickup,
-#delivery{
+#delivery,
+#total{
   
         background-color:#087f5b ;
-    padding: 17px 55px 17px 55px;
+        padding: 27px 55px 27px 55px;
         border-radius: 15px;
         border-style: none;
         margin-right: 10%;
@@ -86,6 +81,9 @@ margin-bottom: 80%;
         color: #B2F2BB;
     
 
+}
+#total{
+    margin-left: 20%;
 }
 #buttons{
     margin-top: 13%;
@@ -102,19 +100,24 @@ footer{
 /* basket */
 /* display of groceries purchased,their prices and quantity */
 table{
-    width: 90%;
-    margin-top: 1%;
+    width: 70%;
+    line-height: 40px;
+    margin-top: 3%;
     font-size: 1.2rem;
     border-collapse: collapse;
-    margin-left: 2%;
-    background: radial-gradient( #1D1D1E, #100202);
+    margin-left: 9%;
+    background: #087F5B;
     border-radius: 11px;
     box-shadow: 0 10px 30px rgb(0, 0, 0,0.5);
-    margin-bottom: 20%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
 }
 thead th{
-    color: #808080;
+    color: black;
+    font-weight: 900;
     width: 25%;
+    border-bottom: black solid 2px;
+    font-size: 20px;
 }
 td,
 th{
@@ -122,4 +125,17 @@ th{
     text-align: left;
     color: #D6D6D6;
     font-weight: 600;
+}
+.home{
+    display: flex;
+    gap: 20%;
+    padding-left: 17%;
+}
+.home a{
+    color: #087F5B;
+    font-size: 15px;
+    font-weight: 900;
+}
+#homeT{
+    margin-right: 2%;
 }
