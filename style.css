@@ -57,6 +57,9 @@ footer ul {
 footer{
     padding:2% 20%;
     border-top: #087f5b solid 1px;
+    font-weight: bolder;
+    font-size: 18px;
+
 }
 
 /* ************************************************   PRODUCTS ON OFFER   ************************************** */
